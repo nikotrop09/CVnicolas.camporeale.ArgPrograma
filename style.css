@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+} 
+
+body {
+  background-color: darkgray;
+}
+
+.contenido-principal{
+  min-height: 100vh;
+  width: 90%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+  grid-column: span 2;
+  height: 100%;
+  background-color: grey;
+  color: azure;
+}
+.left-section h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.left-section li{
+    padding: 0.5rem;
+    font-weight: bold;
+}
+.left-section i{
+    color: darkblue;
+    font-size: 1.1rem;
+    padding-right: 0.1rem;
+}
+
+#hero {
+  text-align: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid azure;
+}
+#hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid azure;
+}
+
+#hero h1{
+padding-top: 1rem;
+}
+#hero h3{
+  font-size: 1rem;
+}
+
+#skills{
+  border-bottom: 1px solid azure;
+}
+
+#estudios{
+  border-bottom: 1px solid azure;
+}
+
+.right-section{
+  grid-column: span 5;
+  background-color: darkblue ;
+  height: 100%;
+  padding: 1rem 2rem;
+  color: azure;
+}
+.right-section h2{
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+.right-section h4{
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+}
+.right-section p{
+  padding: 0.2rem;
+  border: 1px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  .contenido-principal {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
