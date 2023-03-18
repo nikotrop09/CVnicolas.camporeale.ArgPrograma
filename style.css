@@ -73,8 +73,6 @@ padding-top: 1rem;
 #boton1 {
   background-color: blue;
   color: azure;
-  font-size: 1rem;
-  margin: 1rem 2rem 2rem 4rem
 }
 
 .right-section{
@@ -99,7 +97,7 @@ padding-top: 1rem;
   border: 1px;
 }
 
-#boton2 {
+button {
   background-color: gray;
   color: azure;
   font-size: 1.3rem;
