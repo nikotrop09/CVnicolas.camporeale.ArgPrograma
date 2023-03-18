@@ -70,6 +70,13 @@ padding-top: 1rem;
   border-bottom: 1px solid azure;
 }
 
+#boton1 {
+  background-color: blue;
+  color: azure;
+  font-size: 1rem;
+  margin: 1rem 2rem 2rem 4rem
+}
+
 .right-section{
   grid-column: span 5;
   background-color: darkblue ;
@@ -90,6 +97,17 @@ padding-top: 1rem;
 .right-section p{
   padding: 0.2rem;
   border: 1px;
+}
+
+#boton2 {
+  background-color: gray;
+  color: azure;
+  font-size: 1.3rem;
+}
+
+.botonlink {
+  margin: 1rem;
+  text-align: center;
 }
 
 /* media queries */
